@@ -1,4 +1,6 @@
 import DraggableCard from "./DraggableCard";
+import vrandsons from "../assets/vrandsons.jpeg";
+import mandalaKart from "../assets/mandalaKart.jpeg";
 
 const projects = [
   {
@@ -6,6 +8,7 @@ const projects = [
     description:
       "Brick inquiry platform with backend APIs and deployment.",
     tech: ["NodeJS", "MongoDB", "Express"],
+    image : vrandsons,
         live: "https://www.vrandsons.in/",
 
   },
@@ -21,6 +24,7 @@ const projects = [
     description:
       "E-commerce platform for artistic products with custom backend.",
     tech: ["React", "Express", "MongoDB"],
+    image : mandalaKart,
     live: "https://mandala-kart.vercel.app/",
   },
 ];

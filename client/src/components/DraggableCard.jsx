@@ -5,6 +5,7 @@ export default function DraggableCard({
   title,
   description,
   tech,
+  image,
   live
 }) {
   return (
@@ -29,6 +30,13 @@ export default function DraggableCard({
       }}
       className="glass p-6 rounded-3xl w-[320px] cursor-grab active:cursor-grabbing"
     >
+        {/* Project Image */}
+        <img
+          src={image}
+          alt={`${title} project preview`}
+          className="w-full h-48 object-cover rounded-2xl mb-5"
+        />
+        
       <h2 className="text-2xl font-bold gradient-text">
         {title}
       </h2>

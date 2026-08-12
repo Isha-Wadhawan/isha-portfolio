@@ -16,7 +16,7 @@ const experiences = [
       "Built robust backend architecture for modern applications.",
     ],
 
-    link: "https://drive.google.com/file/d/1Y8Z8ebToVYFy1Lj9_0mdVDMaHvgezUJP/view",
+    link: "https://drive.google.com/file/d/1cNcN2C-7nKgu0SOilR32JJnVaO4m3v_u/view?usp=sharing",
   },
 
   {
